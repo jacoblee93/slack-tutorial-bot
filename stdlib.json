@@ -1,0 +1,16 @@
+{
+  "name": "jacoblee/slack-tutorial-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/slack/command/hello.js": {
+      "name": "slack.command",
+      "subtype": {
+        "command": "hello"
+      }
+    },
+    "functions/events/slack/member_joined_channel.js": {
+      "name": "slack.member_joined_channel"
+    }
+  }
+}
