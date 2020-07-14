@@ -21,7 +21,7 @@ module.exports = async (event) => {
   console.log(`Welcoming the user to the joined channel`)
   result.slack.messageResponse = await lib.slack.channels['@0.6.7'].messages.create({
     channel: `#${result.slack.channel.name}`,
-    text: `Welcome to channel <#${result.slack.channel.name}>, <@${result.slack.user.name}>!`
+    text: `Welcome to channel <#${result.slack.channel.id}>, <@${result.slack.user.name}>!`
   });
 
   return result;

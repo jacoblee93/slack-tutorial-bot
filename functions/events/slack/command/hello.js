@@ -18,7 +18,7 @@ module.exports = async (event) => {
     user: `${event.user_id}`
   });
 
-  console.log(`Running [Slack → Send a Message to a Channel]...`);
+  console.log(`Echoing the text after the command back to the channel`);
   result.slack.messageResponse = await lib.slack.channels['@0.6.7'].messages.create({
     channel: `#${result.slack.channel.name}`,
     text: `Hello <@${result.slack.user.name}>! You said: *${event.text}*`
