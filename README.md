@@ -31,7 +31,7 @@ You can deploy this Slack Bot to Autocode by clicking the button below:
 
 You'll be asked to log in and choose a name for your project. Do so, and the project editor will open. Open `functions/events/slack/member_joined_channel.js`, and you'll see a bouncing red button on the bottom of your screen.
 
-![](./images/editor-screen)
+![](./images/editor-screen.png)
 
 Click it and follow the instructions under **Install Autocode App** to link your Slack workspace. Finally, hit the blue **Deploy** button in the bottom right corner to push your project live. That's it, you're done!
 
