@@ -2,7 +2,7 @@
 
 ### Deploy Now
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
+[<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://open.autocode.com/)
 
 This is a basic, fully customizable example Slack Bot that you can install into your Slack workspace in just a few clicks by deploying it to [Autocode](https://autocode.com). Right out of the box, your bot will:
 
@@ -27,7 +27,7 @@ When a member joins a public channel, your bot will respond to the resulting [me
 
 You can deploy this Slack Bot to Autocode by clicking the button below:
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
+[<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://open.autocode.com/)
 
 You'll be asked to log in and choose a name for your project. Do so, and the project editor will open. Open `functions/events/slack/member_joined_channel.js`, and you'll see a bouncing red button on the bottom of your screen.
 
